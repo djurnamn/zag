@@ -1,5 +1,21 @@
 # @zag-js/combobox
 
+## 1.46.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/anatomy@1.46.1
+  - @zag-js/core@1.46.1
+  - @zag-js/types@1.46.1
+  - @zag-js/collection@1.46.1
+  - @zag-js/utils@1.46.1
+  - @zag-js/dismissable@1.46.1
+  - @zag-js/dom-query@1.46.1
+  - @zag-js/focus-visible@1.46.1
+  - @zag-js/live-region@1.46.1
+  - @zag-js/popper@1.46.1
+
 ## 1.46.0
 
 ### Patch Changes
