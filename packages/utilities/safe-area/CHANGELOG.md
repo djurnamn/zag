@@ -1,5 +1,12 @@
 # @zag-js/safe-area
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b)]:
+  - @zag-js/dom-query@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

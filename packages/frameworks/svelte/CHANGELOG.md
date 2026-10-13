@@ -1,5 +1,21 @@
 # @zag-js/svelte
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- [#3429](https://github.com/chakra-ui/zag/pull/3429)
+  [`90eade7`](https://github.com/chakra-ui/zag/commit/90eade7771b01f1f355c77ac3f969c5fde0ef547) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Fixed issue where styles set by a component, such as popup
+  positioning, were lost when the element re-rendered. This made nested menus close as soon as they opened on hover.
+
+  - Raised the minimum `svelte` peer version to `5.29.0`
+
+- Updated dependencies []:
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ## 1.46.0

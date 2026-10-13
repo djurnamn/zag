@@ -1,5 +1,46 @@
 # @zag-js/menu
 
+## 2.0.0-next.4
+
+### Minor Changes
+
+- [#3427](https://github.com/chakra-ui/zag/pull/3427)
+  [`6104bab`](https://github.com/chakra-ui/zag/commit/6104bab3d3d439a47d7742c16fa344846a1cc019) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Add `getInputProps()` and `getListProps()` for filterable menus.
+  The consumer filters the items, and the input keeps focus while the arrow keys move the highlight through them.
+
+  - Set `composite: false` so the content is a dialog holding the input and a `menu` list.
+  - `getEmptyProps()` marks up a "no results" message as a polite live region, so screen readers announce it.
+  - `autoHighlight` highlights the first item as the query changes, or always with `"always"`.
+  - A submenu can have its own input; Escape, Shift+Tab or the left arrow on an empty input return to the parent's.
+  - Opening a submenu on hover or with touch leaves the input unfocused, and focus follows the pointer between menus.
+  - `onHighlightChange` now reports a `reason` (`keyboard`, `pointer` or `programmatic`), and `setHighlightedValue`
+    accepts `null`.
+
+### Patch Changes
+
+- [#3437](https://github.com/chakra-ui/zag/pull/3437)
+  [`6de8f5f`](https://github.com/chakra-ui/zag/commit/6de8f5fa8166862ce82a97f209ede23e33a17905) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Fixed issue where a lazily mounted popup inside nested dialogs
+  rendered behind the dialog.
+
+  - The positioner's z-index now follows the content's z-index, including after the layer index updates
+  - The z-index is kept during the exit animation
+  - Popups whose content has no z-index fall back to the layer index
+  - Added a `zIndexFallback` option to `getDismissableLayerStyle` for popper positioners
+
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b),
+  [`6de8f5f`](https://github.com/chakra-ui/zag/commit/6de8f5fa8166862ce82a97f209ede23e33a17905)]:
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/popper@2.0.0-next.4
+  - @zag-js/dismissable@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/focus-visible@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+  - @zag-js/rect-utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

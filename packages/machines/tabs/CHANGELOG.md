@@ -1,5 +1,21 @@
 # @zag-js/tabs
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- [#3417](https://github.com/chakra-ui/zag/pull/3417)
+  [`1c5cbfe`](https://github.com/chakra-ui/zag/commit/1c5cbfe766cf9d2c9f52d61c8a2e244679a4dd06) Thanks
+  [@Adebesin-Cell](https://github.com/Adebesin-Cell)! - Fixed `onValueChange` and `onFocusChange` details being typed as
+  `string` when they can be `null`. `value` is `null` after a `deselectable` tab is deselected, and `focusedValue` is
+  `null` when focus leaves the tab list.
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b)]:
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ## 1.46.0

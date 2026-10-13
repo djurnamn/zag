@@ -1,5 +1,19 @@
 # @zag-js/solid
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- [#3428](https://github.com/chakra-ui/zag/pull/3428)
+  [`1bd637f`](https://github.com/chakra-ui/zag/commit/1bd637ff0eefb13d1486df85990b796b3d50409a) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Fix `mergeProps` dropping keys a source adds after the first
+  render, which kept nested menus from opening on hover or with the keyboard.
+- Updated dependencies []:
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/store@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

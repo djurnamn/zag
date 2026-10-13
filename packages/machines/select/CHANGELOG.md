@@ -1,5 +1,45 @@
 # @zag-js/select
 
+## 2.0.0-next.4
+
+### Minor Changes
+
+- [#3439](https://github.com/chakra-ui/zag/pull/3439)
+  [`2f0fdf2`](https://github.com/chakra-ui/zag/commit/2f0fdf20b37a61cfd0164ad6418f0212c31c8585) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Add `getInputProps()` and `getEmptyProps()` for filterable
+  selects. Use them with `popupType: "dialog"`; the consumer filters the collection.
+
+  - The input takes focus when the select opens and keeps it while the arrow keys move the highlight.
+  - Home and End jump to the first or last item when the input is empty, and Shift+Tab closes the select.
+  - `getEmptyProps()` marks up a "no results" message as a polite live region, so screen readers announce it.
+  - A dialog popup opens below the trigger instead of aligning its selected item with it.
+  - Fixed issue where `alignItemWithTrigger` placed the selected item of a long or wrapping list away from the trigger.
+
+### Patch Changes
+
+- [#3437](https://github.com/chakra-ui/zag/pull/3437)
+  [`6de8f5f`](https://github.com/chakra-ui/zag/commit/6de8f5fa8166862ce82a97f209ede23e33a17905) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Fixed issue where a lazily mounted popup inside nested dialogs
+  rendered behind the dialog.
+
+  - The positioner's z-index now follows the content's z-index, including after the layer index updates
+  - The z-index is kept during the exit animation
+  - Popups whose content has no z-index fall back to the layer index
+  - Added a `zIndexFallback` option to `getDismissableLayerStyle` for popper positioners
+
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b),
+  [`6de8f5f`](https://github.com/chakra-ui/zag/commit/6de8f5fa8166862ce82a97f209ede23e33a17905)]:
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/popper@2.0.0-next.4
+  - @zag-js/dismissable@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/focus-visible@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/collection@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+  - @zag-js/live-region@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

@@ -1,5 +1,25 @@
 # @zag-js/listbox
 
+## 2.0.0-next.4
+
+### Minor Changes
+
+- [#3342](https://github.com/chakra-ui/zag/pull/3342)
+  [`93bb341`](https://github.com/chakra-ui/zag/commit/93bb34176110f21b60ea8f0127874bbc11c986bf) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - Add `getEmptyProps()` for a "no results" message. It's a
+  polite live region, so screen readers announce it; keep it rendered and toggle its text.
+
+### Patch Changes
+
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b)]:
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/focus-visible@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/collection@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

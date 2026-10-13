@@ -1,5 +1,19 @@
 # @zag-js/dom-query
 
+## 2.0.0-next.4
+
+### Minor Changes
+
+- [`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - Add `isInteractiveDescendant(container, target)` to check whether
+  an event came from a tabbable element nested in a container (e.g. a button inside a list row). Works across shadow
+  roots.
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @zag-js/types@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ## 1.46.0

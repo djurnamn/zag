@@ -1,5 +1,21 @@
 # @zag-js/dialog
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- Updated dependencies [[`7a71c15`](https://github.com/chakra-ui/zag/commit/7a71c1551f2b90cb7e89981e8ce9902b7fca488b),
+  [`6de8f5f`](https://github.com/chakra-ui/zag/commit/6de8f5fa8166862ce82a97f209ede23e33a17905)]:
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/dismissable@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/aria-hidden@2.0.0-next.4
+  - @zag-js/focus-trap@2.0.0-next.4
+  - @zag-js/remove-scroll@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes
